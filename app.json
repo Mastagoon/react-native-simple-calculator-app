@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "rn-calculator",
-    "slug": "rn-calculator",
+    "slug": "react-native-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mastagoon.calc"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1db09826-6075-4ecc-8f02-553d306a4222"
+      }
+    },
+    "owner": "sahal9599"
   }
 }
